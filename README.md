@@ -1,4 +1,5 @@
-Catalogo de concessionária
+Potifólio de uma Agência Dev
 
-O projeto tem como foco criar uma página de catálogo de carros de uma marca, fornecendo todas as informações referente aquele veículo como valores, descrição de peças, potência.
-Com isso, ao final irá conter um formulário com informações a serem preenchidas pelo cliente para se tornar um lead e iniciar negociações.
+Nesse projeto irá conter uma breve apresentação da agência, descrevendo habilidades e a missão, uma página dedicada ao portifólio da agência com uma breve apresentação de sites ou projetos já desenvolvidos pelos mesmos e no final terá um formulário para o cliente preencher com todos os dados para contato e se transformar em um Lead
+
+Design no Figma: https://www.figma.com/design/C6gEE9eSZayyLyVjfkbylT/Projeto?node-id=0-1&t=xblvQGlHWm7xSaT6-1
