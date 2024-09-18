@@ -1,6 +1,6 @@
 Potifólio de uma Agência Dev
 
-Inegrantes:
+Integrantes:
 
 Ewerton Santos da Silva
 
