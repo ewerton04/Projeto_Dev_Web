@@ -1,5 +1,9 @@
 Potifólio de uma Agência Dev
 
+Inegrantes:
+
+Ewerton Santos da Silva
+
 Nesse projeto irá conter uma breve apresentação da agência, descrevendo habilidades e a missão, uma página dedicada ao portifólio da agência com uma breve apresentação de sites ou projetos já desenvolvidos pelos mesmos e no final terá um formulário para o cliente preencher com todos os dados para contato e se transformar em um Lead
 
 Site: https://ewerton04.github.io/Projeto_Dev_Web/
