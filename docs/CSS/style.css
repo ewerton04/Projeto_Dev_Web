@@ -55,7 +55,7 @@ section {
 }
 
 .section-homepage {
-    background: url(img/fundo.jpg) no-repeat;
+    background: #000;
     background-position: center;
     background-size: cover;
     display: flex;
