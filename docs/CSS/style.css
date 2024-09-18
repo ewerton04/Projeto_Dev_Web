@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    box-sizing: border-box; /* Adiciona melhor controle do layout */
 }
 
 section {
@@ -55,7 +54,7 @@ section {
 }
 
 .section-homepage {
-    background: #000;
+    background: url(fundo.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -132,7 +131,7 @@ section {
     height: 600px;
 }
 
-/* Media Queries para Responsividade */
+
 @media (max-width: 1024px) {
     .img-homepage img {
         height: 450px;
@@ -229,12 +228,12 @@ section {
 
     .img-homepage {
         display: flex;
-        justify-content: center; /* Alinha o contêiner da imagem ao centro */
+        justify-content: center; 
     }
 
     .img-homepage img {
         height: 250px;
-        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        margin: 0 auto; 
     }
 }
 
