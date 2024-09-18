@@ -54,7 +54,7 @@ section {
 }
 
 .section-homepage {
-    background: url("https://br.freepik.com/vetores-gratis/cidade-da-noite-futura-com-arranha-ceus-futuristas_7062789.htm") no-repeat;
+    background: url(img/fundo.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
