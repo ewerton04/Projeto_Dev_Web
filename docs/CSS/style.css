@@ -54,7 +54,7 @@ section {
 }
 
 .section-homepage {
-    background: url(fundo.jpg) no-repeat;
+    background: url(/docs/fundo.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -65,7 +65,7 @@ section {
 }
 
 .container-box {
-    background: #000;
+    background: none;
     color: #FFF;
     min-height: 100vh;
     padding: 20px;
