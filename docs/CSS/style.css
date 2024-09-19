@@ -5,9 +5,6 @@
     box-sizing: border-box; /* Adiciona melhor controle do layout */
 }
 
-body {
-    background: #000;
-}
 section {
     min-height: 100vh;
 }
@@ -58,6 +55,9 @@ section {
 }
 
 .section-homepage {
+    background: #000;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
