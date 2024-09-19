@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+section {
+    min-height: 100vh;
+}
+
+body {
+    background: url(/img/fundo.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid#ffffff62;
+}
+
+#logo {
+    background: none;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    background: none;
+}
+
+.navbar a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 1rem;
+    transition: .5s;
+
+}
+
+.navbar a:hover {
+     color: #df6c07;
+    border-bottom: 1px solid #FFF;
+}
+
+#btn-contact {
+    color: #df6c07;
+    border-bottom: 1px solid #FFF;
+}
+
+.section-homepage {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #ffffff46;
+}

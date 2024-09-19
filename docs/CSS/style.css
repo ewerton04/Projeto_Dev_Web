@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box; /* Adiciona melhor controle do layout */
+}
+
+section {
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    padding: 10px;
+    border-bottom: 1px solid #ffffff62;
+}
+
+#logo {
+    background: none;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    background: none;
+}
+
+.navbar a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 1rem;
+    transition: .5s;
+}
+
+.navbar a:hover {
+    color: #df6c07;
+    border-bottom: 1px solid #FFF;
+}
+
+#bnt-inicio {
+    color: #df6c07;
+    border-bottom: 1px solid #FFF;
+}
+
+.section-homepage {
+    background: url(/img/fundo.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 3px solid #ffffff46;
+}
+
+.container-box {
+    background: none;
+    color: #FFF;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-box h4 {
+    font-size: 15px;
+}
+
+.container-box p {
+    font-weight: 500;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+.container-box span {
+    font-weight: 700;
+}
+
+.info-container-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.info-container-box h4 {
+    background: none;
+    font-size: 16px;
+}
+
+.info-container-box i {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.btn-container-box {
+    background: none;
+    padding-top: 10px;
+}
+
+.btn-container-box a {
+    font-size: 18px;
+    padding: 6px 14px;
+    background: #25d366;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.btn-container-box a:hover {
+    background: #25d365d3;
+}
+
+.img-homepage {
+    background: none;
+}
+
+.img-homepage img {
+    height: 600px;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1024px) {
+    .img-homepage img {
+        height: 450px;
+    }
+
+    .container-box p {
+        font-size: 22px;
+        text-align: start;
+    }
+
+    .container-box h4, .info-container-box h4 {
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .btn-container-box {
+        text-align: start;
+    }
+
+    .btn-container-box a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .section-homepage {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .img-homepage img {
+        height: 350px;
+    }
+
+    .container-box p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .section-homepage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .container-box p {
+        font-size: 18px;
+        text-align: start;
+    }
+
+    .info-container-box h4, .container-box h4 {
+        font-size: 12px;
+        text-align: start;
+
+    }
+
+    .btn-container-box {
+    text-align: start;
+    
+    }
+
+    .btn-container-box a {
+        font-size: 14px;
+
+        
+    }
+
+    .img-homepage {
+        display: flex;
+        justify-content: center; /* Alinha o contêiner da imagem ao centro */
+    }
+
+    .img-homepage img {
+        height: 250px;
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    }
+}
+

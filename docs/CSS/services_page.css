@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+section {
+    min-height: 100vh;
+}
+
+body {
+    background: url("https://w.wallha.com/ws/14/QvWB2dAc.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid#ffffff62;
+}
+
+#logo {
+    background: none;
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 800;
+    margin-left: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    background: none;
+}
+
+.navbar a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 1rem;
+    transition: .5s;
+
+}
+
+.navbar a:hover {
+     color: #df6c07;
+    border-bottom: 1px solid #FFF;
+}
+
+#btn-services {
+    color: #df6c07;
+    border-bottom: 1px solid #FFF;
+}
+
+.section-homepage {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #ffffff46;
+}
+
+.section-services {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.img-services img {
+    height: 500px;
+    background: none;
+}
+
+.box-services {
+    background: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-services {
+    background: #ffffff1c;
+    height: 80vh;
+    margin: 20px;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.content-services {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    background: #000;
+    color: #FFF;
+    padding-top: 5px;
+}
+
+.content-services h1 {
+    background: #df6c07;
+}
