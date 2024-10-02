@@ -107,6 +107,22 @@ section {
 
 }
 
+.info-container {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container p {
+    background: none;
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 500px;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+
 .container-box h1 {
     font-size: 32px;
     padding-bottom: 2rem;
@@ -114,13 +130,6 @@ section {
 
 .container-box h4 {
     font-size: 22px;
-}
-
-.container-box p {
-    font-weight: 300;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 25px;
 }
 
 .container-box span {
