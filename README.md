@@ -7,7 +7,7 @@
 Este projeto apresenta uma breve descrição da nossa agência, destacando nossas habilidades e missão. Inclui uma página dedicada ao portfólio, onde você encontrará uma apresentação de sites e projetos desenvolvidos por nossa equipe. No final, há um formulário para que os clientes preencham seus dados de contato e se tornem leads.
 
 ## Links Importantes
-- **Site**: [Acesse o Portfólio](https://ewerton04.github.io/Projeto_Dev_Web/)
+- **Site**: [Acesse a página](https://ewerton04.github.io/Projeto_Dev_Web/)
 - **Design no Figma**: [Visualize o Design](https://www.figma.com/design/C6gEE9eSZayyLyVjfkbylT/Projeto?node-id=0-1&t=xblvQGlHWm7xSaT6-1)
 
 ## Inspirações
