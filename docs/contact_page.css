@@ -108,6 +108,11 @@ section {
     border-radius: 20px;
 }
 
+.forms label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .forms-contact {
     background: none;
     padding: 10px;
