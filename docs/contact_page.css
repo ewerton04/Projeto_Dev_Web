@@ -63,7 +63,7 @@ section {
 }
 
 .section-contact {
-    background: url(/img/teste.png) no-repeat;
+    background: url(teste.png) no-repeat;
     background-size: cover;
     background-position: center;
     color: #FFF;
